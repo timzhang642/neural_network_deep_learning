@@ -21,7 +21,7 @@ target = data(:,end-2:end)';
 load('mnistTrn.mat');
 input = trn;
 target = trnAns;
-%}
+
 
 % number of nodes in input/output layers
 input_size = size(input,1);
@@ -39,7 +39,7 @@ trans = 'sigmoid';
 
 cost = 'quadratic';
 %cost = 'cross-entropy';
-%cost = 'log';
+%cost = 'log'; % negative log likelihood loss for multiclass problem
 
 mu = 0.3; % friction term used in momentum update
 lambda = 5; % used for L2 regularization 
