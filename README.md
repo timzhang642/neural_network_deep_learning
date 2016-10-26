@@ -16,6 +16,7 @@ This repository contains projects, practices for Neural Network and Deep Learnin
    * Cost Functions
     * Quadratic
     * Cross-Entropy
+    * Negative Log Likelihood
    * L2 Regularization
    * Momentum Parameter Updates
    * Returning Cost and Accuracy for Plotting
