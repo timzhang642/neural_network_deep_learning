@@ -6,7 +6,6 @@ This repository contains projects, practices for Neural Network and Deep Learnin
 
 ## Project2: Enhanced Neural Network
   This project is meant to enhance and expand on what was achieved from project 1. Building upon the vanilla neural network, I have added more features to allow me explore the performance of NN with more flexibility:
-  Markup:
    * Early Stopping Criterion
    * Activation Funcitons
     * Sigmoid
